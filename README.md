@@ -29,6 +29,7 @@ Middleware: Cookie-parser, Express middleware
 Version Control: Git & GitHub
 
 ## Project Structure
+---
 ├── app.js
 ├── models/
 │   ├── user.js
@@ -44,6 +45,7 @@ Version Control: Git & GitHub
 ├── public/
 │   └── uploads/
 └── package.json
+---
 
 ## Authentication Flow
 User registers with email and password
