@@ -29,7 +29,7 @@ Middleware: Cookie-parser, Express middleware
 Version Control: Git & GitHub
 
 ## Project Structure
----
+```
 ├── app.js
 ├── models/
 │   ├── user.js
@@ -45,7 +45,7 @@ Version Control: Git & GitHub
 ├── public/
 │   └── uploads/
 └── package.json
----
+```
 
 ## Authentication Flow
 User registers with email and password
@@ -56,32 +56,32 @@ Protected routes are accessed using a custom middleware (isLoggedIn)
 ## How to Run Locally
 
 ### 1. Clone the repository
----
+```
 git clone https://github.com/yourusername/blog-app.git
 cd blog-app
----
+```
 
 ### 2. Install dependencies
----
+```
 npm install
----
+```
 
 ### 3. Start MongoDB
----
+```
 Make sure MongoDB is running locally or connected via MongoDB Atlas.
----
+```
 
 ### 4. Run the server
----
+```
 node app.js
 OR
 npx nodemon app.js
----
+```
 
 ### 5. Open in browser
----
+```
 http://localhost:3000
----
+```
 
 ## Key Learning Outcomes
 Implemented secure authentication and authorization using JWT
